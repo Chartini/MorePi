@@ -1,7 +1,7 @@
 **What is it?**
 
-- MorePi (Mock Rest API) is a simple dynamic RESTful API with server-side in-memory storage. It is meant for development purposes only.
-
+- MorePi (Mock Rest API) is a simple dynamic RESTful API in Django with server-side in-memory storage.
+It is meant for development purposes only.
 
 **Why use it?**
 
@@ -18,6 +18,7 @@
 - Batch AJAX request processing.
 - Reference previous items in a batch: {{{responses.0.author}}}
 - Placeholders in your json for automatically assigned identifiers: ___id___
+- Sample client in CoffeeScript or JavaScript.
 
 **What's the catch?**
 
@@ -51,7 +52,7 @@
 **What are the dependencies?**
 
 - Batchjax: jQuery. Only tested on 1.6+
-- MorePi: simplejson
+- MorePi: Django 1.3+, simplejson
 
 **What's the license?**
 
