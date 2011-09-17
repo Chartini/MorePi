@@ -1,0 +1,5 @@
+*.pyc
+.metadata
+.project
+.pydevproject
+sqlite.db

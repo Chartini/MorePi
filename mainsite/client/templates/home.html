@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>MorePi Example</title>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.js"></script>
+<script type="text/javascript" src="/static/js/compiled/milk.js"></script>
+<script type="text/javascript" src="/static/js/compiled/bjax.js"></script>
+<script type="text/javascript" src="/static/js/compiled/app.js"></script>
+<style>
+.get {
+	color:blue;
+	text-decoration:underline;
+	cursor:pointer;
+}
+</style>
+</head>
+<body>
+<div id="header">
+	<span class="get get-books-list">Books</span> | <span class="get get-authors-list">Authors</span> | <button id="reset-button">Reset data</button>
+	<form style="display:none;">{% csrf_token %}</form>
+</div>
+
+<div id="main">
+	
+	
+</div>
+
+</body>
+</html>
