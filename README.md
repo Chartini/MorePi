@@ -17,7 +17,7 @@ It is meant for development purposes only.
 - Querystring-based property filtering.
 - Batch AJAX request processing.
 - Reference previous items in a batch: {{{responses.0.author}}}
-- Placeholders in your json for automatically assigned identifiers: ___id___
+- Placeholders in your json for automatically assigned identifiers: \_\_\_id\_\_\_
 - Sample client in CoffeeScript or JavaScript.
 
 **What's the catch?**
